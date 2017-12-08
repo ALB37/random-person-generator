@@ -24,6 +24,7 @@
   "bin": {
     "callrandomstudent": "./index.js"
   },
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/ALB37/random-person-generator/issues"
   },
