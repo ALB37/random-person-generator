@@ -14,7 +14,7 @@ Names have been pre-loaded into the lib/random-generator.js. If you would like t
 
 #### How to Use
 
-Simply type 'callrandomstudent' in the command line, and a random name from your list will be returned.
+Open a new terminal window (or tab if you are already running terminal). Navigate to the directory where you cloned this repo. Type 'callrandomstudent' in the command line, and a random name from your list will be returned.
 
 #### Credits
 
