@@ -21,8 +21,15 @@
   ],
   "author": "Andrew Bloom",
   "license": "MIT",
+  "bin": {
+    "callrandomstudent": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/ALB37/random-person-generator/issues"
   },
-  "homepage": "https://github.com/ALB37/random-person-generator#readme"
+  "homepage": "https://github.com/ALB37/random-person-generator#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "fs-extra": "^4.0.3"
+  }
 }
