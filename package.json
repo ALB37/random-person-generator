@@ -21,6 +21,9 @@
   ],
   "author": "Andrew Bloom",
   "license": "MIT",
+  "bin": {
+    "callrandomstudent": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/ALB37/random-person-generator/issues"
   },
