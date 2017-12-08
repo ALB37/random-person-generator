@@ -9,7 +9,7 @@ The purpose of this tool is to randomly generate a name from a list of students.
 #### Getting Started
 
 Clone the repo and do an 'npm i -g <absolute path to this root of this installation>'.
-Names have been pre-loaded into the lib/random-generator.js. If you would like to use a different set of names, you will need to add the names that you would like to use into the nameArray. Next you will need to create a .env file into the root folder of this app. Save that file with the following in the first line:
+Names have been pre-loaded into the lib/random-generator.js. If you would like to use a different set of names, you will need to add the names that you would like to use into the nameArray. Next you will need to set the STORAGE_PATH to the absolute path to the assets/array.json in this project directory. Save the random-generator.js with the following where indicated:
 'STORAGE_PATH=<route app's root directory on *your machine*>/assets/array.json'
 
 #### How to Use
@@ -18,4 +18,4 @@ Open a new terminal window (or tab if you are already running terminal). Type 'c
 
 #### Credits
 
-Created by Andrew Bloom. Using node, npm, 'dotenv' and 'fs-extra'.
+Created by Andrew Bloom. Using node, npm and 'fs-extra'.
